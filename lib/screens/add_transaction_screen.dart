@@ -159,17 +159,17 @@ class _AddTransactionScreenState extends State<AddTransactionScreen>
             pinned: true,
             elevation: 0,
             backgroundColor: Colors.transparent,
-            leading: Container(
-              margin: const EdgeInsets.all(8),
-              decoration: BoxDecoration(
-                color: Colors.white.withValues(alpha: 0.2),
-                borderRadius: BorderRadius.circular(12),
-              ),
-              child: IconButton(
-                icon: const Icon(Icons.arrow_back, color: Colors.white),
-                onPressed: () => Navigator.of(context).pop(),
-              ),
-            ),
+            // leading: Container(
+            //   margin: const EdgeInsets.all(8),
+            //   decoration: BoxDecoration(
+            //     color: Colors.white.withValues(alpha: 0.2),
+            //     borderRadius: BorderRadius.circular(12),
+            //   ),
+            //   // child: IconButton(
+            //   //   icon: const Icon(Icons.arrow_back, color: Colors.white),
+            //   //   onPressed: () => Navigator.of(context).pop(),
+            //   // ),
+            // ),
             flexibleSpace: FlexibleSpaceBar(
               background: Container(
                 decoration: BoxDecoration(
@@ -188,7 +188,7 @@ class _AddTransactionScreenState extends State<AddTransactionScreen>
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const SizedBox(height: 40),
+                        const SizedBox(height: 10),
                         FadeTransition(
                           opacity: _fadeAnimation,
                           child: const Text(
