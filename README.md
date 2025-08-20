@@ -1,4 +1,4 @@
-# 💰 FLUTTER-MONEY-MANAGER  
+# 💰 FinFlow: Personal Finance Manager  
 *Empower Your Finances, Unlock Limitless Possibilities*  
 
 ![Last Commit](https://img.shields.io/github/last-commit/Ipangbbd/Flutter-Finance-Manager) 
